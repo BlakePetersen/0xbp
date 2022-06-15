@@ -3,6 +3,7 @@
     "hardhat": "^2.9.9",
     "prettier": "^2.7.0",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.7",
     "typescript": "^4.7.3"
   }
 }
