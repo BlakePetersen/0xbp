@@ -1,5 +1,10 @@
 {
   "version": "0.0.0",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "solhint 'contracts/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix"
+  },
   "devDependencies": {
     "hardhat": "^2.9.9",
     "prettier": "^2.7.0",
